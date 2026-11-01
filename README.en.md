@@ -4,7 +4,7 @@
 
 An LLM agent that solves a tabular ML task on its own: it reads the task, looks at the data, picks the metric, trains and compares models, and submits the best `submission.csv`. No human in the loop.
 
-Built at the Alfa-Future Hackathon 2026 (AutoML track, October 23–26) by a team of 5. Result: **55th place out of 226**.
+Built at the Alfa-Future Hackathon 2026 (AutoML track, October 23–26) by a team of 5. Result: **49th of 226 on the private leaderboard** (55th on the public one).
 
 ## My part
 
@@ -35,9 +35,22 @@ The agent has seven tools: `set_task`, `evaluate`, `tune`, `add_features`, `blen
 
 ## Results
 
-**Leaderboard.** Over three submissions the score went from 15.10 to 24.94 and the place from 132 to 51. On the final private leaderboard the team finished 55th out of 226.
+**Leaderboard.** Over three submissions the score went from 15.10 to 24.94 and the place from 132 to 51. Final standings: 55th of 226 on the public leaderboard and **49th of 226 on the private one**.
 
 ![Leaderboard](assets/leaderboard.png)
+
+<details>
+<summary>Leaderboard screenshots from the platform</summary>
+
+Public leaderboard: 55 of 226
+
+![Public leaderboard](assets/leaderboard_public.png)
+
+Private leaderboard: 49 of 226
+
+![Private leaderboard](assets/leaderboard_private.png)
+
+</details>
 
 What moved the score:
 1. First working version: agent plus core.
